@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<title>Tagging Plugin! - Main</title>
+		<link rel="stylesheet" type="text/css" href="template/stylesheet.css">
+	</head>
+	<body>
+
+		<div align="center">
+			<div class="content">
+    
+			<div class="header" align="left">
+				<a href="doc.html"><img src="template/logo.png" border="0"></a>
+			</div>
+	
+			<div class="navbar" align="left">
+				<ul>
+					<li><a href="doc.html">Main</a></li>
+					<li><a href="versions.html">Versions</a></li>
+					<li><a href="usage.html">Usage</a></li>
+					<li><a href="screenshots.html">Screenshots</a></li>
+					<li><a href="developers.html">Developers</a></li>
+				</ul>
+			</div>
+
+			<div class="main" align="left">
+	 
+				<h1>Developers</h1>
+				
+				In this section i will cover everything you need to know for extending and translating this plugin.
+				
+				<h2>Hooks</h2>
+				
+				There are 3 hooks:
+				
+				<ul>
+					<li>tagging_tag_added <span>This hook is called when new tags in a post are added and it has an argument which is an array('pid' => $pid, 'tid' => $tid, 'users' => $users):<br />
+					<b>pid</b>: is the post id where users are tagged<br />
+					<b>tid</b>: is the thread id which contains the post</b><br />
+					<b>users</b>: is an array of user ids of the tagged users
+					</span></li>
+					<li>tagging_tag_removed <span>This hook is called when some tags are removed in a post and it has an argument which is an array('pid' => $pid, 'tid' => $tid, 'users' => $users):<br />
+					<b>pid</b>: is the post id where users are tagged<br />
+					<b>tid</b>: is the thread id which contains the post</b><br />
+					<b>users</b>: is an array of user ids of the removed tagged users
+					</span></li>
+					<li>tagging_tag_merged <span>This hook is called when tags are merged (when posts containing tags are merged) in a post and it has an argument which is an array('pid' => $pid, 'tid' => $tid, 'users' => $users):<br />
+					<b>pid</b>: is the post id which contains all merged pots<br />
+					<b>tid</b>: is the thread tid which contains the post</b><br />
+					<b>users</b>: is an array of user ids contained in tags
+					</span></li>
+				</ul>
+				
+				<h2>Translation</h2>
+				
+				English language pack is self-contained, for translating it you need to create a file in <b>/inc/languages/yourlanguage/</b> and name it <b>tagging.lang.php</b>.<br />
+				
+				This is the basic template of the file:<br />
+				<code>
+				&lt;?PHP<br />
+				$l['tagging_usercp_noone'] = "No one";<br />
+				$l['tagging_usercp_all'] = "Everyone";<br />
+				$l['tagging_usercp_buddy'] = "Only your buddies";<br />
+				$l['tagging_usercp_settings'] = "Tagging settings";<br />
+				$l['tagging_usercp_update_settings'] = "Update your tagging settings";<br />
+				$l['tagging_usercp_setting_invalid'] = "We're sorry but the setting is invalid, retry!";<br />
+				$l['tagging_usercp_setting_updated'] = "You updated successfully your tagging settings";<br />
+				?&gt;
+				</code>
+				
+				<br />
+				
+				Isn't it easy?!
+								
+				
+			</div>
+			
+			<div class="footer">
+				A plugin written by <b>flash.tato</b>
+			</div>
+			
+		</div>
+	</body>
+</html>

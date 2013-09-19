@@ -1,0 +1,159 @@
+/* NAVIGATION MENUS */
+
+#pagemenucontainer {
+	height: 30px;
+    margin-top: 16px;
+    padding: 0 4px 0 8px;
+    background: url(../../../images/mobileworld/pagenav-background.png) left top repeat-x;
+    -moz-border-radius: 5px 5px 0 0;
+    -khtml-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+    float: left;
+	}
+	
+#pagemenu {
+	height: 30px;
+    float: left;
+	}
+
+#pagemenu, #pagemenu ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 1;
+	}
+#pagemenu {
+	margin-bottom: 1px;
+	}
+	
+#pagemenu ul {
+	float: left;
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	}
+	
+#pagemenu li {
+	float: left;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+#pagemenu ul li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+#pagemenu li a, #pagemenu li a:link {
+	color: #353f45;
+	display: block;
+    margin: 6px 6px 0 0;
+	padding: 5px 15px;
+	text-decoration: none;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #eaeaeb;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+	}
+	
+#pagemenu li a:hover, #pagemenu li a:active{
+	color: #c23403;
+	display: block;
+    border: 2px solid #d3d6d9;
+    background: #fff;
+    text-decoration: none;
+	}
+	
+#pagemenu  li.current_page_item a {
+	color: #c23403;
+    border: 2px solid #d3d6d9;
+    background: #fff;
+    text-decoration: none;
+	}
+
+#pagemenu li:hover, #pagemenu li.sfhover { 
+	position: static;
+	}
+	
+
+
+.navcontainer {
+	height: 40px;
+    background: url(../../../images/mobileworld/nav-background.png) top left repeat-x;
+    padding-left: 8px;
+	}
+	
+#nav {
+	height: 40px;
+	}
+
+#nav, #nav ul { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 1;
+	}
+#nav {
+	margin-bottom: 1px;
+	}
+	
+#nav ul {
+	float: left;
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	}
+	
+#nav li {
+	float: left;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+#nav ul li {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	}
+	
+#nav li a, #nav li a:link {
+	color: #fff;
+	display: block;
+    margin: 0px 6px 0px 0;
+	padding: 14px 14px;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+    font-family: Arial, Helvetica, Sans-serif;
+    text-shadow: 0 1px 0 #2f3e46;
+	}
+	
+#nav li a:hover, #nav li a:active {
+	color: #fff;
+	display: block;
+	text-decoration: none;
+    background: url(../../../images/mobileworld/nav-background-hover.png) top left repeat-x;
+    text-shadow: 0 1px 0 #ac2f04;
+	}
+	
+#nav  li.current-cat a {
+	color:#fff;
+    background: url(../../../images/mobileworld/nav-background-hover.png) top left repeat-x;
+    text-shadow: 0 1px 0 #ac2f04;
+	}
+
+#nav li:hover, #nav li.sfhover { 
+	position: static;
+	}
+		
+		

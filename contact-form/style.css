@@ -1,0 +1,21 @@
+body{text-align:center;background-color:#FFF;margin:20px}
+#mainForm{position:relative;border:1px;text-align:left;width:70%;background-color:#fff;border-style:solid;margin:0 auto}
+ul.mainForm{list-style-type:none;font-family:Tahoma, Arial, Verdana, sans-serif;font-size:15px}
+li.mainForm{padding-bottom:10px}
+#mainFormError{position:relative;border:1px;text-align:left;width:70%;border-style:solid;margin:0 auto}
+#formHeader{position:relative;width:100%;background-color:#01A3FF;padding-bottom:10px;margin:0}
+p.formHeader{text-align:right;font-family:Tahoma, Arial, Verdana, sans-serif;font-weight:400;color:#fff;font-size:25px;position:relative;left:-5px;top:4px;letter-spacing:2px;margin:0}
+h2.formInfo{text-align:left;font-family:Tahoma, Arial, Verdana, sans-serif;font-weight:400;font-size:20px;position:relative;left:20px;top:0;letter-spacing:1px;line-height:150%;color:#fff;margin:0}
+p.formInfo{text-align:left;font-family:Tahoma, Arial, Verdana, sans-serif;font-weight:400;font-size:12px;position:relative;left:20px;top:0;color:#fff;margin:0}
+label.formFieldQuestion{line-height:125%;border:none;display:block;font-size:95%;font-weight:700;padding:0 4px 1px 0}
+label.formFieldOption{font-size:90%;display:block;line-height:1em;width:90%;margin:-19px 0 0 25px;padding:4px 0 5px}
+input.formFieldStyle{display:block;line-height:1.4em;width:13px;height:13px;margin:8px 0 0 3px}
+a.info{font-family:Tahoma, Arial, Sans-Serif;text-decoration:none;position:relative}
+a.info span{position:relative;display:none}
+a.info:hover{position:relative;cursor:default}
+a.info:hover .infobox{font-weight:400;display:block;position:absolute;top:20px;left:25px;width:205px;height:70px;border:1px solid #ccc;background:#f4f4f4 url(question.gif) no-repeat bottom right;color:#000;text-align:left;font-size:.7em;padding-left:10px;padding-top:10px}
+button.calendarStyle{background-color:transparent;border:0;height:22px;width:22px;background-image:url(imgs/calendar.png);cursor:hand}
+p.footer{text-align:right;font-family:Tahoma, Arial, Verdana, sans-serif;font-weight:400;color:#fff;font-size:9px;position:relative;top:4px;left:-140px;letter-spacing:2px;margin:0}
+a.footer{text-align:right;font-family:Tahoma, Arial, Verdana, sans-serif;font-weight:400;color:#fff;font-size:9px;position:relative;top:4px;letter-spacing:2px;margin:0}
+input.mainFormError,textarea.mainFormError,select.mainFormError{background-color:#FADADD}
+#formInfo,#formFields{position:relative;width:100%;background-color:#fff;margin:0}
