@@ -1,4 +1,4 @@
-#Immigration Australia Forum
+# Immigration Australia Forum
 
 Website and Hosting account no longer active.
 
@@ -8,4 +8,4 @@ The Website had a nice template, some nice modules. Working really nice.
 
 May still be of some use to someone.
 
-###Software used: MyBB
+### Software used: MyBB
